@@ -22,6 +22,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins= "*")
 public class ProduitController {
 	
 	@Autowired
