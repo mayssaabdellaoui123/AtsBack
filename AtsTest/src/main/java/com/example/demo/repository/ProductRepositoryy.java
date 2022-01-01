@@ -4,6 +4,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.example.demo.entities.Produit;
 
-public interface ProductRepositoryy  extends CrudRepository<Produit,Long >{
+@Repository
+public interface ProductRepositoryy  extends JpaRepository<Produit,Long >{
 
 }
